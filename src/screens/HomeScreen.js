@@ -40,6 +40,12 @@ const HomeScreen = ({ navigation }) => {
           title="Go to Text Demo"
         />
       </View>
+      <View style={{ padding: 10 }}>
+        <Button
+          title="Go to Box Demo"
+          onPress={() => navigation.navigate("Box")}
+        />
+      </View>
     </View>
 
   );
